@@ -10,13 +10,13 @@ A small and naive command-line tool that checks any Binance pair and monitors st
 # Instructions
 
 ## Live Price Checking
-Copy and paste into the console:<br>:<br>
+Copy and paste into the console:<br><br>
 `python depeg_watcher.py BTCUSDT`<br><br>
 The program will then retrieve the current price from Binance API and print in the console<br><br>
 The pair can be the user's choice. For example XRPUSDT, TRXUSDT, DOTUSDT, etc <br><br>
 
 ## Stablecoin Depegs Watch
-Copy and paste into the console:<br>:<br>
+Copy and paste into the console:<br><br>
 `python depeg_watcher.py watch`<br><br>
 The program will then retrieve the current price of the stable coins from Binance API and print a warning should they depeg, the program will continue to check every 60 seconds unless the user interrupt the loop<br><br>
 
