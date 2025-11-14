@@ -21,7 +21,7 @@ Copy and paste into the console:<br><br>
 The program will then retrieve the current price of the stable coins from Binance API and print a warning should they depeg, the program will continue to check every 60 seconds unless the user interrupt the loop<br><br>
 
 # Requirements
-Users should first install the following before continuing<br><br>
+Users should first install the following before continuing:<br><br>
 `pip install requests`
 
 
